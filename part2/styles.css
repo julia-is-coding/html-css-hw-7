@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    background: rgb(38, 38, 39);
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.clearfix:after { /* cоздаём класс с общепризнанным названием clearfix */
+    content: '';
+    display: table; /*  добавляем для кроссбраузерности*/
+    clear: both;
+}
+
+.container {
+    background: #D2B48C;
+    padding: 30px;
+}
+
+p {
+    border: 2px solid #5bcee8;
+}
+
+.block1 {
+    float: left;
+}
+
+.blockA {
+    background-color: #c64c28;
+}
+
+.blockB {
+    background-color: #5d8990;
+}
+
+.blockA, .blockB {
+    width: 400px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 0;
+}
+
+.block2 {
+    float: right;
+}
+
+.block3A {
+    float: left;
+}
+
+.block3B {
+    float: right;
+}

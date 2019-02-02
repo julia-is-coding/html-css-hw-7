@@ -2,6 +2,7 @@
 homework-7
 1. Сделать таблицу из 3й домашки используя новые селекторы
 2. Сделать с помощью float и clearfix https://monosnap.com/file/V8wTP8ZQuEFLq9yzdqXtbXz8ncQ5NI
+
 На занятии рассмотрели:
 Рассмотрели css селекторы https://learn.javascript.ru/css-selectors
 Рассмотрели специфичность
